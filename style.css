@@ -34,6 +34,7 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 20rem;
 }
 
 .one{
@@ -41,14 +42,21 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
-
+header{
+  background-color: white;
+}
+main{
+  background-color: white;
+  margin-left:5rem;
+  margin-right: 5rem;
+}
 .btn{
   display: block;
   margin-top: 1rem;
-  background-color: #3e38bf;
+  background-color: rgb(123, 24, 24);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
